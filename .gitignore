@@ -1,0 +1,23 @@
+# Vector Store Databases
+vs_*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

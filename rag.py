@@ -9,17 +9,33 @@ from langchain_community.vectorstores import FAISS
 # 🔥 Best models for your system (low RAM + fast)
 ANSWER_MODEL = "phi3"
 EMBED_MODEL = "bge-m3"
+KNOWLEDGE_BASE_DIR = "knowledge_base"
 
 st.title("📄 PDF RAG Chatbot (Ollama) • Ultra Fast Version")
 
-uploaded_pdf = st.file_uploader("Upload a PDF", type=["pdf"])
+# Get list of PDFs from knowledge base directory
+if not os.path.exists(KNOWLEDGE_BASE_DIR):
+    st.error(f"❌ Knowledge base directory '{KNOWLEDGE_BASE_DIR}' not found. Please create it and add PDF files.")
+    st.stop()
 
-if uploaded_pdf:
-    pdf_path = uploaded_pdf.name
-    with open(pdf_path, "wb") as f:
-        f.write(uploaded_pdf.getbuffer())
+try:
+    pdf_files = [f for f in os.listdir(KNOWLEDGE_BASE_DIR) if f.lower().endswith('.pdf')]
+except OSError as e:
+    st.error(f"❌ Error accessing knowledge base directory: {e}")
+    st.stop()
 
-    DB_PATH = f"vs_{os.path.splitext(pdf_path)[0]}"
+if not pdf_files:
+    st.warning(f"⚠️ No PDF files found in '{KNOWLEDGE_BASE_DIR}' directory. Please add PDF files to the knowledge base.")
+    st.info("💡 Place your PDF documents in the 'knowledge_base' directory and refresh the page.")
+    st.stop()
+
+# Select PDF from knowledge base
+selected_pdf = st.selectbox("Select a PDF from knowledge base", pdf_files)
+
+if selected_pdf:
+    pdf_path = os.path.join(KNOWLEDGE_BASE_DIR, selected_pdf)
+    pdf_name = os.path.splitext(selected_pdf)[0]
+    DB_PATH = f"vs_{pdf_name}"
 
     st.write("🔄 Loading PDF...")
     docs = PyPDFLoader(pdf_path).load()
