@@ -18,7 +18,11 @@ if not os.path.exists(KNOWLEDGE_BASE_DIR):
     st.error(f"❌ Knowledge base directory '{KNOWLEDGE_BASE_DIR}' not found. Please create it and add PDF files.")
     st.stop()
 
-pdf_files = [f for f in os.listdir(KNOWLEDGE_BASE_DIR) if f.lower().endswith('.pdf')]
+try:
+    pdf_files = [f for f in os.listdir(KNOWLEDGE_BASE_DIR) if f.lower().endswith('.pdf')]
+except OSError as e:
+    st.error(f"❌ Error accessing knowledge base directory: {e}")
+    st.stop()
 
 if not pdf_files:
     st.warning(f"⚠️ No PDF files found in '{KNOWLEDGE_BASE_DIR}' directory. Please add PDF files to the knowledge base.")
