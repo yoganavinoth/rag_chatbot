@@ -1,0 +1,33 @@
+# RAG Chatbot Requirements
+# Core AI and Machine Learning
+langchain==0.1.0
+langchain-community==0.0.13
+ollama==0.1.7
+
+# Vector Database and Embeddings
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+
+# Document Processing
+pypdf==3.17.4
+python-docx==1.1.0
+
+# Web Framework and API
+fastapi==0.104.1
+uvicorn==0.24.0
+streamlit==1.28.1
+
+# HTTP Requests
+requests==2.31.0
+
+# Data Processing
+numpy==1.24.3
+pandas==2.0.3
+
+# Development Tools
+pydantic==2.5.0
+python-dotenv==1.0.0
+
+# Logging and Utils
+colorama==0.4.6
+tqdm==4.66.1
