@@ -1,0 +1,38 @@
+2025-12-17 18:15:20,471 - INFO - Auto-loading document: health.pdf
+2025-12-17 18:16:26,412 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-17 18:16:26,457 - INFO - Loading faiss with AVX2 support.
+2025-12-17 18:16:26,645 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-17 18:16:26,703 - INFO - Successfully rebuilt combined vector database
+2025-12-17 18:16:26,720 - INFO - Successfully added document: health.pdf
+2025-12-17 18:16:26,721 - INFO - Auto-loading document: sample-1-10.pdf
+2025-12-17 18:18:38,076 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-17 18:18:38,182 - INFO - Successfully rebuilt combined vector database
+2025-12-17 18:18:38,202 - INFO - Successfully added document: sample-1-10.pdf
+2025-12-17 18:18:38,204 - INFO - Auto-loading document: health_conditions.csv
+2025-12-17 18:18:40,205 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-17 18:18:40,233 - INFO - Successfully rebuilt combined vector database
+2025-12-17 18:18:40,252 - INFO - Successfully added document: health_conditions.csv
+2025-12-17 18:18:40,254 - INFO - Auto-loading document: metrics.csv
+2025-12-17 18:18:41,744 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-17 18:18:41,779 - INFO - Successfully rebuilt combined vector database
+2025-12-17 18:18:41,800 - INFO - Successfully added document: metrics.csv
+2025-12-17 18:18:41,801 - INFO - Auto-loading document: product_catalog.csv
+2025-12-17 18:18:43,342 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-17 18:18:43,367 - INFO - Successfully rebuilt combined vector database
+2025-12-17 18:18:43,386 - INFO - Successfully added document: product_catalog.csv
+2025-12-17 18:18:43,387 - INFO - Auto-loading document: sample_data.xlsx
+2025-12-17 18:18:44,141 - INFO - Processed Excel file documents\sample_data.xlsx with 3 sheets
+2025-12-17 18:18:51,029 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-17 18:18:51,062 - INFO - Successfully rebuilt combined vector database
+2025-12-17 18:18:51,079 - INFO - Successfully added document: sample_data.xlsx
+2025-12-17 18:18:51,105 - INFO - Successfully rebuilt combined vector database
+2025-12-17 18:18:51,106 - INFO - Auto-loaded 6 documents from knowledge base folder
+2025-12-17 18:22:01,615 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-17 18:22:01,622 - INFO - Keyword boost: +0.200 for 2 matches
+2025-12-17 18:22:01,623 - INFO - Document included - Similarity: 1.000, Distance: 0.9, Keywords: 2
+2025-12-17 18:22:01,624 - INFO - Keyword boost: +0.100 for 1 matches
+2025-12-17 18:22:01,624 - INFO - Document included - Similarity: 1.000, Distance: 1.0, Keywords: 1
+2025-12-17 18:22:01,625 - INFO - Keyword boost: +0.100 for 1 matches
+2025-12-17 18:22:01,625 - INFO - Document included - Similarity: 1.000, Distance: 1.1, Keywords: 1
+2025-12-17 18:23:40,611 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-12-17 18:23:59,081 - INFO - Cached answer for question: WHAT IS NoN–commuNicable	Disease...
