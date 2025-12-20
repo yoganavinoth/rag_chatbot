@@ -1,0 +1,131 @@
+2025-12-17 18:15:20,471 - INFO - Auto-loading document: health.pdf
+2025-12-17 18:16:26,412 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-17 18:16:26,457 - INFO - Loading faiss with AVX2 support.
+2025-12-17 18:16:26,645 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-17 18:16:26,703 - INFO - Successfully rebuilt combined vector database
+2025-12-17 18:16:26,720 - INFO - Successfully added document: health.pdf
+2025-12-17 18:16:26,721 - INFO - Auto-loading document: sample-1-10.pdf
+2025-12-17 18:18:38,076 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-17 18:18:38,182 - INFO - Successfully rebuilt combined vector database
+2025-12-17 18:18:38,202 - INFO - Successfully added document: sample-1-10.pdf
+2025-12-17 18:18:38,204 - INFO - Auto-loading document: health_conditions.csv
+2025-12-17 18:18:40,205 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-17 18:18:40,233 - INFO - Successfully rebuilt combined vector database
+2025-12-17 18:18:40,252 - INFO - Successfully added document: health_conditions.csv
+2025-12-17 18:18:40,254 - INFO - Auto-loading document: metrics.csv
+2025-12-17 18:18:41,744 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-17 18:18:41,779 - INFO - Successfully rebuilt combined vector database
+2025-12-17 18:18:41,800 - INFO - Successfully added document: metrics.csv
+2025-12-17 18:18:41,801 - INFO - Auto-loading document: product_catalog.csv
+2025-12-17 18:18:43,342 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-17 18:18:43,367 - INFO - Successfully rebuilt combined vector database
+2025-12-17 18:18:43,386 - INFO - Successfully added document: product_catalog.csv
+2025-12-17 18:18:43,387 - INFO - Auto-loading document: sample_data.xlsx
+2025-12-17 18:18:44,141 - INFO - Processed Excel file documents\sample_data.xlsx with 3 sheets
+2025-12-17 18:18:51,029 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-17 18:18:51,062 - INFO - Successfully rebuilt combined vector database
+2025-12-17 18:18:51,079 - INFO - Successfully added document: sample_data.xlsx
+2025-12-17 18:18:51,105 - INFO - Successfully rebuilt combined vector database
+2025-12-17 18:18:51,106 - INFO - Auto-loaded 6 documents from knowledge base folder
+2025-12-17 18:22:01,615 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-17 18:22:01,622 - INFO - Keyword boost: +0.200 for 2 matches
+2025-12-17 18:22:01,623 - INFO - Document included - Similarity: 1.000, Distance: 0.9, Keywords: 2
+2025-12-17 18:22:01,624 - INFO - Keyword boost: +0.100 for 1 matches
+2025-12-17 18:22:01,624 - INFO - Document included - Similarity: 1.000, Distance: 1.0, Keywords: 1
+2025-12-17 18:22:01,625 - INFO - Keyword boost: +0.100 for 1 matches
+2025-12-17 18:22:01,625 - INFO - Document included - Similarity: 1.000, Distance: 1.1, Keywords: 1
+2025-12-17 18:23:40,611 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-12-17 18:23:59,081 - INFO - Cached answer for question: WHAT IS NoN–commuNicable	Disease...
+2025-12-20 15:58:13,959 - INFO - Loading faiss with AVX2 support.
+2025-12-20 15:58:14,133 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-20 15:58:14,166 - INFO - Registered existing document: health.pdf
+2025-12-20 15:58:14,182 - INFO - Registered existing document: sample-1-10.pdf
+2025-12-20 15:58:14,183 - INFO - Auto-loading document: vs_health.pdf
+2025-12-20 15:58:14,184 - ERROR - Error extracting tables from PDF documents\vs_health.pdf: File path documents\vs_health.pdf is not a valid file or url
+2025-12-20 15:58:14,201 - ERROR - Error adding document documents\vs_health.pdf: File path documents\vs_health.pdf is not a valid file or url
+2025-12-20 15:58:14,202 - INFO - Auto-loading document: vs_sample-1-10.pdf
+2025-12-20 15:58:14,203 - ERROR - Error extracting tables from PDF documents\vs_sample-1-10.pdf: File path documents\vs_sample-1-10.pdf is not a valid file or url
+2025-12-20 15:58:14,224 - ERROR - Error adding document documents\vs_sample-1-10.pdf: File path documents\vs_sample-1-10.pdf is not a valid file or url
+2025-12-20 15:58:14,231 - INFO - Registered existing document: health_conditions.csv
+2025-12-20 15:58:14,236 - INFO - Registered existing document: metrics.csv
+2025-12-20 15:58:14,240 - INFO - Registered existing document: product_catalog.csv
+2025-12-20 15:58:14,240 - INFO - Auto-loading document: vs_health_conditions.csv
+2025-12-20 15:58:14,255 - ERROR - Error adding document documents\vs_health_conditions.csv: Error loading documents\vs_health_conditions.csv
+2025-12-20 15:58:14,256 - INFO - Auto-loading document: vs_metrics.csv
+2025-12-20 15:58:14,275 - ERROR - Error adding document documents\vs_metrics.csv: Error loading documents\vs_metrics.csv
+2025-12-20 15:58:14,276 - INFO - Auto-loading document: vs_product_catalog.csv
+2025-12-20 15:58:14,289 - ERROR - Error adding document documents\vs_product_catalog.csv: Error loading documents\vs_product_catalog.csv
+2025-12-20 15:58:14,295 - INFO - Registered existing document: sample_data.xlsx
+2025-12-20 15:58:14,296 - INFO - Auto-loading document: vs_sample_data.xlsx
+2025-12-20 15:58:14,322 - ERROR - Error loading Excel file documents\vs_sample_data.xlsx: [Errno 13] Permission denied: 'documents\\vs_sample_data.xlsx'
+2025-12-20 15:58:14,336 - ERROR - Error adding document documents\vs_sample_data.xlsx: list index out of range
+2025-12-20 15:58:14,357 - INFO - Successfully rebuilt combined vector database
+2025-12-20 15:58:14,358 - INFO - Auto-loaded 6 documents from knowledge base folder
+2025-12-20 16:00:31,417 - INFO - Loading faiss with AVX2 support.
+2025-12-20 16:00:31,461 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-20 16:00:31,476 - INFO - Registered existing document: health.pdf
+2025-12-20 16:00:31,482 - INFO - Registered existing document: sample-1-10.pdf
+2025-12-20 16:00:31,483 - INFO - Auto-loading document: vs_health.pdf
+2025-12-20 16:00:31,484 - ERROR - Error extracting tables from PDF documents\vs_health.pdf: File path documents\vs_health.pdf is not a valid file or url
+2025-12-20 16:00:31,506 - ERROR - Error adding document documents\vs_health.pdf: File path documents\vs_health.pdf is not a valid file or url
+2025-12-20 16:00:31,507 - INFO - Auto-loading document: vs_sample-1-10.pdf
+2025-12-20 16:00:31,507 - ERROR - Error extracting tables from PDF documents\vs_sample-1-10.pdf: File path documents\vs_sample-1-10.pdf is not a valid file or url
+2025-12-20 16:00:31,526 - ERROR - Error adding document documents\vs_sample-1-10.pdf: File path documents\vs_sample-1-10.pdf is not a valid file or url
+2025-12-20 16:00:31,534 - INFO - Registered existing document: health_conditions.csv
+2025-12-20 16:00:31,537 - INFO - Registered existing document: metrics.csv
+2025-12-20 16:00:31,540 - INFO - Registered existing document: product_catalog.csv
+2025-12-20 16:00:31,541 - INFO - Auto-loading document: vs_health_conditions.csv
+2025-12-20 16:00:31,563 - ERROR - Error adding document documents\vs_health_conditions.csv: Error loading documents\vs_health_conditions.csv
+2025-12-20 16:00:31,563 - INFO - Auto-loading document: vs_metrics.csv
+2025-12-20 16:00:31,581 - ERROR - Error adding document documents\vs_metrics.csv: Error loading documents\vs_metrics.csv
+2025-12-20 16:00:31,581 - INFO - Auto-loading document: vs_product_catalog.csv
+2025-12-20 16:00:31,596 - ERROR - Error adding document documents\vs_product_catalog.csv: Error loading documents\vs_product_catalog.csv
+2025-12-20 16:00:31,599 - INFO - Registered existing document: sample_data.xlsx
+2025-12-20 16:00:31,599 - INFO - Auto-loading document: vs_sample_data.xlsx
+2025-12-20 16:00:31,616 - ERROR - Error loading Excel file documents\vs_sample_data.xlsx: [Errno 13] Permission denied: 'documents\\vs_sample_data.xlsx'
+2025-12-20 16:00:31,629 - ERROR - Error adding document documents\vs_sample_data.xlsx: list index out of range
+2025-12-20 16:00:31,641 - INFO - Successfully rebuilt combined vector database
+2025-12-20 16:00:31,641 - INFO - Auto-loaded 6 documents from knowledge base folder
+2025-12-20 16:00:37,606 - INFO - Auto-loading document: vs_health.pdf
+2025-12-20 16:00:37,607 - ERROR - Error extracting tables from PDF documents\vs_health.pdf: File path documents\vs_health.pdf is not a valid file or url
+2025-12-20 16:00:37,625 - ERROR - Error adding document documents\vs_health.pdf: File path documents\vs_health.pdf is not a valid file or url
+2025-12-20 16:00:37,626 - INFO - Auto-loading document: vs_sample-1-10.pdf
+2025-12-20 16:00:37,627 - ERROR - Error extracting tables from PDF documents\vs_sample-1-10.pdf: File path documents\vs_sample-1-10.pdf is not a valid file or url
+2025-12-20 16:00:37,643 - ERROR - Error adding document documents\vs_sample-1-10.pdf: File path documents\vs_sample-1-10.pdf is not a valid file or url
+2025-12-20 16:00:37,644 - INFO - Auto-loading document: vs_health_conditions.csv
+2025-12-20 16:00:37,654 - ERROR - Error adding document documents\vs_health_conditions.csv: Error loading documents\vs_health_conditions.csv
+2025-12-20 16:00:37,654 - INFO - Auto-loading document: vs_metrics.csv
+2025-12-20 16:00:37,673 - ERROR - Error adding document documents\vs_metrics.csv: Error loading documents\vs_metrics.csv
+2025-12-20 16:00:37,673 - INFO - Auto-loading document: vs_product_catalog.csv
+2025-12-20 16:00:37,689 - ERROR - Error adding document documents\vs_product_catalog.csv: Error loading documents\vs_product_catalog.csv
+2025-12-20 16:00:37,690 - INFO - Auto-loading document: vs_sample_data.xlsx
+2025-12-20 16:00:37,691 - ERROR - Error loading Excel file documents\vs_sample_data.xlsx: [Errno 13] Permission denied: 'documents\\vs_sample_data.xlsx'
+2025-12-20 16:00:37,707 - ERROR - Error adding document documents\vs_sample_data.xlsx: list index out of range
+2025-12-20 16:00:37,723 - INFO - Successfully rebuilt combined vector database
+2025-12-20 16:00:37,723 - INFO - Auto-loaded 6 documents from knowledge base folder
+2025-12-20 16:01:30,939 - INFO - Loading faiss with AVX2 support.
+2025-12-20 16:01:30,982 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-20 16:01:31,004 - INFO - Registered existing document: health.pdf
+2025-12-20 16:01:31,008 - INFO - Registered existing document: sample-1-10.pdf
+2025-12-20 16:01:31,017 - INFO - Auto-loading document: vs_health.pdf
+2025-12-20 16:01:31,018 - ERROR - Error extracting tables from PDF documents\vs_health.pdf: File path documents\vs_health.pdf is not a valid file or url
+2025-12-20 16:01:31,063 - ERROR - Error adding document documents\vs_health.pdf: File path documents\vs_health.pdf is not a valid file or url
+2025-12-20 16:01:31,066 - INFO - Auto-loading document: vs_sample-1-10.pdf
+2025-12-20 16:01:31,069 - ERROR - Error extracting tables from PDF documents\vs_sample-1-10.pdf: File path documents\vs_sample-1-10.pdf is not a valid file or url
+2025-12-20 16:01:31,084 - ERROR - Error adding document documents\vs_sample-1-10.pdf: File path documents\vs_sample-1-10.pdf is not a valid file or url
+2025-12-20 16:01:31,087 - INFO - Registered existing document: health_conditions.csv
+2025-12-20 16:01:31,089 - INFO - Registered existing document: metrics.csv
+2025-12-20 16:01:31,090 - INFO - Registered existing document: product_catalog.csv
+2025-12-20 16:01:31,090 - INFO - Auto-loading document: vs_health_conditions.csv
+2025-12-20 16:01:31,108 - ERROR - Error adding document documents\vs_health_conditions.csv: Error loading documents\vs_health_conditions.csv
+2025-12-20 16:01:31,110 - INFO - Auto-loading document: vs_metrics.csv
+2025-12-20 16:01:31,129 - ERROR - Error adding document documents\vs_metrics.csv: Error loading documents\vs_metrics.csv
+2025-12-20 16:01:31,129 - INFO - Auto-loading document: vs_product_catalog.csv
+2025-12-20 16:01:31,142 - ERROR - Error adding document documents\vs_product_catalog.csv: Error loading documents\vs_product_catalog.csv
+2025-12-20 16:01:31,146 - INFO - Registered existing document: sample_data.xlsx
+2025-12-20 16:01:31,147 - INFO - Auto-loading document: vs_sample_data.xlsx
+2025-12-20 16:01:31,161 - ERROR - Error loading Excel file documents\vs_sample_data.xlsx: [Errno 13] Permission denied: 'documents\\vs_sample_data.xlsx'
+2025-12-20 16:01:31,172 - ERROR - Error adding document documents\vs_sample_data.xlsx: list index out of range
+2025-12-20 16:01:31,187 - INFO - Successfully rebuilt combined vector database
+2025-12-20 16:01:31,187 - INFO - Auto-loaded 6 documents from knowledge base folder
+2025-12-20 16:03:49,463 - INFO - Cached answer for question: what is illness...
